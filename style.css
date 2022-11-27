@@ -38,6 +38,11 @@
     color: white;
 }
 
+.description p{
+border:2px solid white;
+border-radius: 8px;
+padding:2px;
+}
 
 
 
