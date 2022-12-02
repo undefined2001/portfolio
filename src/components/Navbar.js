@@ -19,21 +19,21 @@ export default function Navbar(props) {
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Link</a>
+                                <a className="nav-link active" href="/">About</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                <a className="nav-link dropdown-toggle active" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Skills
                                 </a>
                                 <ul className="dropdown-menu m-2">
-                                    <li><a className="dropdown-item" href="/">Action</a></li>
-                                    <li><a className="dropdown-item" href="/">Another action</a></li>
+                                    <li><a className="dropdown-item" href="/">C++</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="/">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="/">Embedded<br/>System</a></li>
+                                    <li><hr className="dropdown-divider" /></li>
+                                    <li><a className="dropdown-item" href="/">Pyhton</a></li>
+                                    <li><hr className="dropdown-divider" /></li>
+                                    <li><a className="dropdown-item" href="/">Django</a></li>
                                 </ul>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" href="/">Disabled</a>
                             </li>
                         </ul>
                         <div className="form-check form-switch">
