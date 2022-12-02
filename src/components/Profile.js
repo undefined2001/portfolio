@@ -1,12 +1,5 @@
 import React from 'react';
 import image from '../image/image.png'
-import cpplogo from '../image/cpp.png'
-import djlogo from '../image/django.png'
-import pylogo from '../image/python.png'
-import mbedlogo from '../image/mbed.png'
-
-
-
 
 
 export default function Profile(props) {
@@ -40,37 +33,6 @@ export default function Profile(props) {
                         <a href="https://www.facebook.com/asraful.islam.taj/"><i className="fa-brands fa-facebook fa-3x my-icon" style={style()[1]}></i></a>
                         <a href="/"><i className="fa-brands fa-github fa-3x my-icon" style={style()[1]}></i></a>
                         <a href="/"><i className="fa-brands fa-facebook-messenger fa-3x my-icon" style={style()[1]}></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container-fluid d-flex justify-content-center" style={style()[2]}>
-                <div className="shadow-lg my-container-2 my-2">
-                <h1 className='my-5 my-font' style={style()[3]}>Skills</h1>
-                    <div className="skill-container">
-                        <div className="skill-1 shadow-lg">
-                            <h5><strong>C++</strong></h5>
-                            <img src={cpplogo} alt="" />
-                            <button className='btn btn-primary'>Project</button>
-                        </div>
-
-                        <div className="skill-2 shadow-lg">
-                            <h5><strong>Python</strong></h5>
-                            <img src={pylogo} alt="" />
-                            <button className='btn btn-primary'>Project</button>
-                        </div>
-
-                        <div className="skill-3 shadow-lg">
-                            <h5><strong>Django</strong></h5>
-                            <img src={djlogo} alt="" />
-                            <button className='btn btn-primary'>Project</button>
-                        </div>
-
-                        <div className="skill-4 shadow-lg">
-                            <h5><strong>Embedded<br />System</strong></h5>
-                            <img src={mbedlogo} alt="" />
-                            <button className='btn btn-primary'>Project</button>
-                        </div>
                     </div>
                 </div>
             </div>

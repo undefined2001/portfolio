@@ -2,6 +2,7 @@
 import React, {useState} from 'react'
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
+import Skills from './components/Skills';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <>
     <Navbar  title = "Asraful's Portfolio" mode = {mode} switchMode = {switchMode} btnText = {btnText}/>
     <Profile mode = {mode}/>
+    <Skills mode = {mode}/>
     </>
   );
 }
