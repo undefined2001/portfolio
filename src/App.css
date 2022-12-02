@@ -39,7 +39,7 @@
   color: white;
 }
 
-.info>p {
+.my-info > p {
   border-radius: 8px;
   padding: 2px;
   width: 500px;
@@ -60,8 +60,8 @@
 .skill-3,
 .skill-4 {
 
-  height: 45vh;
-  width: 18vw;
+  height: 55vh;
+  width: 20vw;
   background-color: white;
   border-radius: 20px;
   display: flex;
@@ -90,20 +90,262 @@
   text-align: center;
 }
 
-/* Form Here Responsiveness Starts */
-
-@media(max-width:450px) {
+@media only screen and (max-width:1200px){
 
   .my-container {
-    flex-direction: column;
+    align-items: center;
   }
   .description{
-    flex-direction: column;
+    align-items: center;
   }
 
   .my-img {
-    height: 370px;
-    width: 340px;
+    height: 38vh;
+    width: 35vw;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+
+  .my-icon {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .my-info > h4 , h5{
+    padding-left: 10px;
+  }
+
+  .my-info > p {
+    width: 35vw;
+    padding: 3px;
+  }
+
+
+  .skill-container {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .skill-1,
+  .skill-2,
+  .skill-3,
+  .skill-4 {
+
+    height: 45vh;
+    width: 33vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+}
+
+/* Form Here Responsiveness Starts */
+@media(max-width:1025px) and (orientation:portrait){
+
+  .my-container {
+    align-items: center;
+  }
+  .description{
+    align-items: center;
+  }
+
+  .my-img {
+    height: 30vh;
+    width: 35vw;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+
+  .my-icon {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .my-info > h4 , h5{
+    padding-left: 10px;
+  }
+
+  .my-info > p {
+    width: 35vw;
+    padding: 3px;
+  }
+
+
+  .skill-container {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .skill-1,
+  .skill-2,
+  .skill-3,
+  .skill-4 {
+
+    height: 35vh;
+    width: 35vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+}
+
+@media(max-width:1000px) {
+
+  .my-container {
+    align-items: center;
+  }
+  .description{
+    align-items: center;
+  }
+
+  .my-img {
+    height: 50vh;
+    width: 35vw;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+
+  .my-icon {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .my-info > h4 , h5{
+    padding-left: 10px;
+  }
+
+  .my-info > p {
+    width: 35vw;
+    padding: 3px;
+  }
+
+
+  .skill-container {
+    width: 90vw;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .skill-1,
+  .skill-2,
+  .skill-3,
+  .skill-4 {
+
+    height: 55vh;
+    width: 31vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+}
+
+@media(max-width:800px) and (orientation: portrait) {
+
+  .my-container {
+    align-items: center;
+  }
+  .description{
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .my-img {
+    height: 30vh;
+    width: 38vw;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+  
+  .my-icon {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .my-info > h4 , h5{
+    padding-left: 10px;
+  }
+
+  .my-info > p {
+    width: 70vw;
+    padding: 3px;
+  }
+
+
+  .skill-container {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .skill-1,
+  .skill-2,
+  .skill-3,
+  .skill-4 {
+
+    height: 40vh;
+    width: 36vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+}
+
+
+
+@media only screen and (max-width:450px) and (orientation:portrait) {
+
+  .my-container {
+    align-items: center;
+  }
+  .description{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-img {
+    height: 45vh;
+    width: 80vw;
     border: 2px solid white;
     border-radius: 50%;
   }
@@ -111,22 +353,18 @@
 
   .icons{
     flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
   }
 
-  .my-icon {
-    padding-left: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+
+  .my-info > h4 , h5{
+    padding-left: 10px;
   }
 
-  .info{
+  .my-info > p {
+    width: 85vw;
     padding: 3px;
-  }
-
-  .info > p {
-    width: 89vw;
-    padding: 2px;
-
   }
 
 
@@ -156,3 +394,75 @@
   }
 
 }
+
+@media(max-height:450px) and (orientation:landscape) {
+
+  .my-container {
+    align-items: center;
+  }
+  .description{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+  }
+
+  .my-img {
+    height: 67vh;
+    width: 32vw;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+
+  .icons{
+    flex-direction: column;
+    padding-right: 10px;
+  }
+
+  .my-icon {
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .my-info{
+    padding:7px;
+  }
+
+  .my-info > p {
+    width: 38vw;
+    padding: 3px;
+
+  }
+  .my-container-2{
+    border-radius: 10px;
+  }
+
+  .skill-container {
+    width: 90vw;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .skill-1,
+  .skill-2,
+  .skill-3,
+  .skill-4 {
+
+    height: 85vh;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+  }
+
+}
+
+

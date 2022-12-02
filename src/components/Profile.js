@@ -21,7 +21,7 @@ export default function Profile(props) {
         <>
             <div className="container-fluid my-container" style={style()[2]}>
                 <div className="description shadow-lg my-4">
-                    <div className={`info my-font py-3 text-${(props.mode === "light") ? "dark" : "light"}`}>
+                    <div className={`my-info my-font py-3 text-${(props.mode === "light") ? "dark" : "light"}`}>
                         <h4>Institution: BRAC University</h4>
                         <h4>Name: Asraful Islam Taj</h4>
                         <h4>Age: 22</h4>
@@ -36,7 +36,7 @@ export default function Profile(props) {
                         <img className="my-img" style={style()[0]} src={image} alt="" />
                     </div>
                     <div className="icons">
-                        <a className="link" href="/"><i className="fa-brands fa-linkedin fa-3x my-icon" style={style()[1]}></i></a>
+                        <a className="link" href="/"><i className="fa-brands fa-linkedin fa-3x my-icon " style={style()[1]}></i></a>
                         <a href="https://www.facebook.com/asraful.islam.taj/"><i className="fa-brands fa-facebook fa-3x my-icon" style={style()[1]}></i></a>
                         <a href="/"><i className="fa-brands fa-github fa-3x my-icon" style={style()[1]}></i></a>
                         <a href="/"><i className="fa-brands fa-facebook-messenger fa-3x my-icon" style={style()[1]}></i></a>
@@ -45,7 +45,7 @@ export default function Profile(props) {
             </div>
 
             <div className="container-fluid d-flex justify-content-center" style={style()[2]}>
-                <div className="shadow-lg">
+                <div className="shadow-lg my-container-2 my-2">
                 <h1 className='my-5 my-font' style={style()[3]}>Skills</h1>
                     <div className="skill-container">
                         <div className="skill-1 shadow-lg">
