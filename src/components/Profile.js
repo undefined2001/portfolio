@@ -1,8 +1,8 @@
 import React from 'react';
 import image from '../image/image.png'
 import cpplogo from '../image/cpp.png'
-import pylogo from '../image/django.png'
-import djlogo from '../image/python.png'
+import djlogo from '../image/django.png'
+import pylogo from '../image/python.png'
 import mbedlogo from '../image/mbed.png'
 
 
