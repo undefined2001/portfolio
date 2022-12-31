@@ -33,7 +33,7 @@ export default function Skills(props) {
                         <div className="skill-3 shadow-lg">
                             <h5>Django</h5>
                             <img src={djlogo} alt="" />
-                            <button className='btn btn-primary'>Project</button>
+                            <a className="btn btn-primary" href="https://undefined2001.pythonanywhere.com/admin" rel='noopener' target = "_blank">Project</a>
                         </div>
 
                         <div className="skill-4 shadow-lg">

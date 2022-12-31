@@ -5,20 +5,20 @@ import image from '../image/image.png'
 export default function Profile(props) {
     const style = () => {
         if (props.mode === "light") {
-            return [{ border: "2px solid black" }, { color: "black" }, { backgroundColor: "#f0f5f5" }, { textAlign: 'center',  color: "black" }]
+            return [{ border: "2px solid black" }, { color: "black" }, { backgroundColor: "#f0f5f5" }, { textAlign: 'center', color: "black" }]
         } else {
-            return [{ border: "2px solid white" }, { color: "white" }, { backgroundColor: "#1c1e21" }, { textAlign: 'center',  color: "white" }]
+            return [{ border: "2px solid white" }, { color: "white" }, { backgroundColor: "#1c1e21" }, { textAlign: 'center', color: "white" }]
         }
     }
     return (
-        <>
+        <div className="profile">
             <div className="container-fluid my-container" style={style()[2]}>
                 <div className="description shadow-lg my-4">
                     <div className={`my-info my-font py-3 text-${(props.mode === "light") ? "dark" : "light"}`}>
-                        <h4>Institution: BRAC University</h4>
-                        <h4>Name: Asraful Islam Taj</h4>
-                        <h4>Age: 22</h4>
-                        <h5>Short Description:</h5>
+                        <h1>Institution: BRAC University</h1>
+                        <h2>Name: Asraful Islam Taj</h2>
+                        <h2>Age: 22</h2>
+                        <h3>Short Description:</h3>
                         <p style={style()[0]}>
                             I am Asraful Islam Taj. Currently Doing my BSc in Computer Science and Engineering at BRAC University. I am a
                             tech enthusiast person and love to write code and play with electronics devices so thats why I choose Embedded
@@ -36,6 +36,6 @@ export default function Profile(props) {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
