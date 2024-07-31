@@ -10,20 +10,20 @@ export default function Description({ data }) {
                             // Same substring at the start will only be typed out once, initially
                             '',
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
-                            data.name,
+                            `I'm ${data.name}`,
                             1000,
-                            data.profession,
+                            `I'm a ${data.profession}`,
                             1000,
                             'We produce food for Chinchillas',
                             1000
                         ]}
                         wrapper="span"
-                        speed={50}
-                        style={{display: 'inline-block', color: 'white'}}
+                        speed={40}
+                        style={{ display: 'inline-block', color: 'white' }}
                         repeat={Infinity}
                         className="ml-5 mb-5 sm:min-h-16 font-mono sm:text-2xl lg:text-3xl"
                     />
-                    <p className="mx-10 lg:w-1/2 sm:h-1/2 sm:w-full sm:text-sm sm:mx-5 text-xl text-white font-mono">
+                    <p className="lg:ml-5 lg:w-1/2 sm:h-1/2 sm:w-100 sm:text-sm sm:mx-5 text-xl text-white font-mono">
                         {data.description}
                     </p>
                 </div>
