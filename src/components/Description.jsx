@@ -23,7 +23,7 @@ export default function Description({ data }) {
                         repeat={Infinity}
                         className="ml-5 mb-5 sm:min-h-16 font-mono sm:text-2xl lg:text-3xl"
                     />
-                    <p className="lg:ml-5 lg:w-1/2 sm:h-1/2 sm:w-100 sm:text-sm sm:mx-5 text-xl text-white font-mono">
+                    <p className="lg:ml-5 lg:w-full sm:h-1/2 sm:w-100 sm:text-sm sm:mx-5 text-xl text-white font-mono">
                         {data.description}
                     </p>
                 </div>
