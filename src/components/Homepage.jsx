@@ -8,7 +8,7 @@ function Homepage() {
     return (
         <>
             <Navbar title={data.navtitle} />
-            <div className="container-fluid flex h-screen bg-gradient-to-r from-purple-950  to-purple-800 m-0">
+            <div className="container-fluid flex lg:flex-row sm:flex-col-reverse h-screen bg-gradient-to-r from-purple-950  to-purple-800 m-0">
                 <Description data={data} />
                 <ProfileImage />
             </div>

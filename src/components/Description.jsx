@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation"
 export default function Description({ data }) {
     return (
         <>
-            <div className="my-custom-container h-full flex items-center w-full">
+            <div className="my-custom-container h-auto flex items-center w-full">
                 <div>
                     <TypeAnimation
                         sequence={[
@@ -14,7 +14,7 @@ export default function Description({ data }) {
                             1000,
                             `I'm a ${data.profession}`,
                             1000,
-                            'Bhaire Kemon Hoise Bolish',
+                            `I Love to explore about ${data.hobby} `,
                             1000
                         ]}
                         wrapper="span"

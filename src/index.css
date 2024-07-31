@@ -17,3 +17,8 @@ body {
     top: 0;
 }
 
+.my-progress-bar {
+    height: 10px;
+    width: 50px;
+    background-color: red;
+}

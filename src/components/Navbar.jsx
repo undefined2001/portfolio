@@ -6,7 +6,7 @@ function Navbar({ title }) {
                     {title}
                 </div>
                 <ul className="lg:hidden flex-row items-center w-1/3 justify-evenly sm:flex">
-                    <li className='text-white hover:text-gray-400 cursor-pointer transition-colors duration-200'>About</li>
+                    <li className='text-white hover:text-gray-400 cursor-pointer transition-colors duration-200 '>Download CV</li>
                 </ul>
                 <ul className='lg:flex flex-row items-center w-1/3 justify-evenly sm:hidden'>
                     <li className='text-white hover:text-gray-400 cursor-pointer transition-colors duration-200'>About</li>
