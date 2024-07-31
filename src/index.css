@@ -17,11 +17,3 @@ body {
     top: 0;
 }
 
-.my-custom-container {
-    clip-path: polygon(0% 0%, 64% 0, 82% 50%, 64% 100%, 0% 100%);
-}
-
-.my-skills-contaner {
-    clip-path: polygon(0% 0%, 64% 0, 46% 50%, 64% 100%, 0% 100%);
-
-}
