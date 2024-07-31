@@ -14,7 +14,7 @@ export default function Description({ data }) {
                             1000,
                             `I'm a ${data.profession}`,
                             1000,
-                            'We produce food for Chinchillas',
+                            'Bhaire Kemon Hoise Bolish',
                             1000
                         ]}
                         wrapper="span"
