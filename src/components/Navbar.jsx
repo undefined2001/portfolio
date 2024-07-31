@@ -1,23 +1,20 @@
-import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faHouse, faFile, faUser } from '@fortawesome/free-solid-svg-icons'
-
-let clssesForIcon = "nav-icon hover:bg-yellow-300"
-
-function Navbar() {
+function Navbar({ title }) {
     return (
-        <>
-            <nav className='ml-20 h-1/3'>
-                <ul className='nav-list flex flex-col justify-between itmes-center h-full'>
-                    <FontAwesomeIcon icon={faHouse} size='2xl' className={clssesForIcon} />
-                    <FontAwesomeIcon icon={faFacebook} size='2xl' className={clssesForIcon} />
-                    <FontAwesomeIcon icon={faUser} size='2xl' className={clssesForIcon} />
-                    <FontAwesomeIcon icon={faFile} size='2xl' className={clssesForIcon} />
+        <div className='container-fluid h-14 w-full pt-10 flex justify-center my-nav-container z-10'>
+            <nav className='container flex flex-row items-center justify-between w-full h-14 bg-black rounded-full'>
+                <div className='text-white font-bold text-2xl ml-14'>
+                    {title}
+                </div>
+                <ul className='flex flex-row items-center w-1/3 justify-evenly'>
+                    <li className='text-white hover:text-gray-400 cursor-pointer transition-colors duration-200'>About</li>
+                    <li className='text-white hover:text-gray-400 cursor-pointer transition-colors duration-200'>Github</li>
+                    <li className='text-white hover:text-gray-400 cursor-pointer transition-colors duration-200'>Skills</li>
+                    <li className='text-white hover:text-gray-400 cursor-pointer transition-colors duration-200'>Download CV</li>
                 </ul>
             </nav>
-        </>
+        </div>
     )
 }
+
 
 export default Navbar;

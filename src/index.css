@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+}
+
+.my-nav-container {
+    position: fixed;
+    top: 0;
+}
+
+.my-custom-container {
+    clip-path: polygon(0% 0%, 64% 0, 82% 50%, 64% 100%, 0% 100%);
+}
+
+.my-skills-contaner {
+    clip-path: polygon(0% 0%, 64% 0, 46% 50%, 64% 100%, 0% 100%);
+
 }
